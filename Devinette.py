@@ -1,4 +1,4 @@
-mport random
+import random
 import time
 
 print("Bienvenue dans le jeux de la devinette")
