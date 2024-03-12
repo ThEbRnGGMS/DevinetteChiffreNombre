@@ -1,4 +1,4 @@
-import random
+mport random
 import time
 
 print("Bienvenue dans le jeux de la devinette")
@@ -43,5 +43,8 @@ while a!=b:
     time.sleep(1)
 
     b = int(input("Trouve le nombre ou le chiffre: "))
+
+if b == a:
+    print("TROUVER !!!")
 
 print("Le nombre était le numéro",a,)
